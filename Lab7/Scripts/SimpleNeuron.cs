@@ -48,6 +48,6 @@ public class SimpleNeuron : MonoBehaviour
 
     public string _ToString(string color)
     {
-        return $"WeightX: <color={color}><b>{weightX}</b></color>, WeightY: <color={color}><b>{weightY}</b></color>, bias: <color={color}><b>{bias}</b></color>";
+        return $"WeightX: <color={color}><b>{weightX}</b></color>, WeightX2: <color={color}><b>{weightY}</b></color>, bias: <color={color}><b>{bias}</b></color>";
     }
 }
